@@ -57,9 +57,9 @@
 
             bindings = <
 &trans   &trans     &trans    &trans    &trans    &trans                                       &trans     &trans          &trans          &trans           &trans     &trans
-&kp ESC  &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT  &trans                    &trans  &kp CARET  &kp AMPS        &kp UP_ARROW    &kp LPAR         &kp RPAR   &kp DEL
-&trans   &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE   &trans                    &trans  &kp HOME   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp GRAVE  &kp TILDE
-&trans   &kp ESC    &kp LGUI  &kp LPAR  &kp RPAR  &kp TILDE  &trans  &trans    &trans  &trans  &kp END    &kp PG_DN       &kp LEFT        &kp DOWN         &kp RIGHT  &kp RET
+&kp ESC  &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT  &trans                    &trans  &kp CARET  &kp HOME        &kp UP_ARROW    &kp END          &kp RPAR   &kp DEL
+&trans   &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE   &trans                    &trans  &kp PG_UP  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SQT    &kp TILDE
+&trans   &kp ESC    &kp LGUI  &kp LPAR  &kp RPAR  &kp TILDE  &trans  &trans    &trans  &trans  &kp PG_DN  &kp PG_DN       &kp LEFT        &kp DOWN         &kp RIGHT  &kp RET
 &trans   &trans     &trans    &mo 3     &trans               &mo 3   &trans    &trans  &trans             &trans          &trans          &trans           &trans     &trans
             >;
         };
